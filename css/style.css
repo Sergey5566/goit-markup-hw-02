@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto;
+    color: #2e2f42;
+}
+.logo{
+    font-family: Raleway;
+    color: #2e2f42 ;
+}
+.button{
+    background: #4D5AE5;
+    color: #ffffff;
+}
+.button:hover{
+    background: #404BBF;
+        color: #ffffff;
+}
+.button-menu{
+    background:#404BBF;
+    color: #FFFFFF;
+}
+.button-menu:hover{
+    background: #F4F4FD;
+    color: #4D5AE5;;
+}
+span{
+    color: #4D5AE5;
+}
+.link{
+    color: #2E2F42;
+}
+.link:hover{
+    color: #404BBF;
+}
+.adress{
+    color: #2E2F42;
+}
+.adress:hover{
+    color: #404BBF;
+}
