@@ -1,6 +1,6 @@
 body {
-    font-family: Roboto;
-    color: #2e2f42;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 
 .list {
@@ -13,25 +13,32 @@ body {
 
 /*-------------------------HEADER--------------------------*/
 
+
 .logo{
-    font-family: Raleway;
-    color: #2e2f42;
+    font-family: 'Raleway', sans-serif;
+    color: #4d5ae5;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.33;          
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-span{
-    color: #4D5AE5;
+.span {
+    color: #2E2F42;
+}
+
+.adress-items{
+    font-style: normal;
 }
 
 .link-menu{
     color: #2e2f42;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .link-menu:hover,
@@ -41,7 +48,7 @@ span{
 
 .adress{
     color: #2E2F42;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
@@ -59,12 +66,13 @@ span{
 }
 
 .title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center
 }
 
 .button {
@@ -95,7 +103,7 @@ span{
 .section-item {}
 
 .section-subtitle {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -164,8 +172,10 @@ span{
 }
 
 /*-------------------------BUTTOM_ITEMS--------------------------*/
+.main{
 
-.button-section {}
+}
+.section-main {}
 
 .button-items {}
 
@@ -188,7 +198,6 @@ span{
 
 /*-------------------------ROW--------------------------*/
 
-.row {}
 
 .portfolio-items {}
 
@@ -219,8 +228,8 @@ span{
 }
 
 .logo-footer{
-    font-family: Raleway;
-    color: #F4F4FD;
+    font-family: 'Raleway';
+    color: #4D5AE5;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -228,8 +237,8 @@ span{
     text-decoration: none;
 }
 
-span {
-    color: #4D5AE5;
+.span_footer {
+    color: #F4F4FD;
 }
 
 .footer-text {
