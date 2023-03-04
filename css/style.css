@@ -208,7 +208,9 @@ body {
 
 .portfolio-items {}
 
-.project-card {}
+.project-card {
+text-decoration: none
+}
 
 .subtitle {
     font-family: 'Roboto', sans-serif;
