@@ -19,7 +19,7 @@ body {
     color: #4d5ae5;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;          
+    line-height: 1.17;          
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -47,11 +47,12 @@ body {
 }
 
 .adress{
-    color: #2E2F42;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+    letter-spacing: 0.02em
 }
 
 .adress:hover,
@@ -76,6 +77,12 @@ body {
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     background: #4D5AE5;
     color: #ffffff;
     display: flex;
@@ -83,7 +90,6 @@ body {
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -112,7 +118,7 @@ body {
 }
 
 .section-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -124,7 +130,7 @@ body {
 .menu {}
 
 .menu-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -142,7 +148,7 @@ body {
 .list-team {}
 
 .team-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -155,7 +161,7 @@ body {
 .team-desc {}
 
 .name {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -164,7 +170,7 @@ body {
 }
 
 .team-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -180,19 +186,20 @@ body {
 .button-items {}
 
 .button-menu {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #404BBF;
+    color: #4d5ae5;
+    cursor: pointer;
+    background: #F4F4FD;;
 }
 
 .button-menu:hover,
 .button-menu:focus {
-    background: #F4F4FD;
-    color: #4D5AE5;
+    background: #404BBF;;
+    color: #FFFFFF;;
     ;
 }
 
@@ -204,7 +211,7 @@ body {
 .project_card {}
 
 .subtitle {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -213,7 +220,7 @@ body {
 }
 
 .potfolio-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -228,10 +235,10 @@ body {
 }
 
 .logo-footer{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -242,7 +249,7 @@ body {
 }
 
 .footer-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
